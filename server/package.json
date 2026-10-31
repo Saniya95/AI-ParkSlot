@@ -1,0 +1,23 @@
+{
+  "name": "aiparkslot-backend",
+  "version": "1.0.0",
+  "description": "AI ParkSlot - AI-Integrated Parking Slot Booking Platform Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node tests/chatbotTests.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^11.3.0",
+    "mongoose": "^8.13.0",
+    "qrcode": "^1.5.4"
+  }
+}

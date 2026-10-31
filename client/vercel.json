@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://YOUR-RENDER-BACKEND-URL.onrender.com/api/$1"
+      "destination": "https://ai-parkslot.onrender.com/api/$1"
     },
     {
       "source": "/uploads/(.*)",
-      "destination": "https://YOUR-RENDER-BACKEND-URL.onrender.com/uploads/$1"
+      "destination": "https://ai-parkslot.onrender.com/uploads/$1"
     },
     {
       "source": "/(.*)",
